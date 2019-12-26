@@ -3,5 +3,4 @@ project(demo C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(demo
-        lesson2_3.c)
+add_executable(LeetCode_1.c LeetCode_1.c)

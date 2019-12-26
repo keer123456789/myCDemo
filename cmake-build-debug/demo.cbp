@@ -17,26 +17,18 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="demo">
-				<Option output="E:/code/c/demo/cmake-build-debug/demo.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="rebuild_cache">
 				<Option working_dir="E:/code/c/demo/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="demo/fast">
-				<Option output="E:/code/c/demo/cmake-build-debug/demo.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="LeetCode_1.c">
+				<Option output="E:/code/c/demo/cmake-build-debug/LeetCode_1.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/code/c/demo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -47,7 +39,25 @@
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode_1.c"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeetCode_1.c/fast">
+				<Option output="E:/code/c/demo/cmake-build-debug/LeetCode_1.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/code/c/demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode_1.c/fast"/>
 					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -63,19 +73,9 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="E:/code/c/demo/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/code/c/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
-		<Unit filename="E:/code/c/demo/lesson2_3.c">
-			<Option target="demo"/>
+		<Unit filename="E:/code/c/demo/LeetCode_1.c">
+			<Option target="LeetCode_1.c"/>
 		</Unit>
 		<Unit filename="E:/code/c/demo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

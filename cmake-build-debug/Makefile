@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = E:\code\c\demo\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named demo
+# Target rules for targets named LeetCode_1.c
 
 # Build rule for target.
-demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 demo
-.PHONY : demo
+LeetCode_1.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 LeetCode_1.c
+.PHONY : LeetCode_1.c
 
 # fast build rule for target.
-demo/fast:
-	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/build
-.PHONY : demo/fast
+LeetCode_1.c/fast:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/build
+.PHONY : LeetCode_1.c/fast
 
-lesson2_3.obj: lesson2_3.c.obj
+LeetCode_1.obj: LeetCode_1.c.obj
 
-.PHONY : lesson2_3.obj
+.PHONY : LeetCode_1.obj
 
 # target to build an object file
-lesson2_3.c.obj:
-	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/lesson2_3.c.obj
-.PHONY : lesson2_3.c.obj
+LeetCode_1.c.obj:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_1.c.obj
+.PHONY : LeetCode_1.c.obj
 
-lesson2_3.i: lesson2_3.c.i
+LeetCode_1.i: LeetCode_1.c.i
 
-.PHONY : lesson2_3.i
+.PHONY : LeetCode_1.i
 
 # target to preprocess a source file
-lesson2_3.c.i:
-	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/lesson2_3.c.i
-.PHONY : lesson2_3.c.i
+LeetCode_1.c.i:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_1.c.i
+.PHONY : LeetCode_1.c.i
 
-lesson2_3.s: lesson2_3.c.s
+LeetCode_1.s: LeetCode_1.c.s
 
-.PHONY : lesson2_3.s
+.PHONY : LeetCode_1.s
 
 # target to generate assembly for a file
-lesson2_3.c.s:
-	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/lesson2_3.c.s
-.PHONY : lesson2_3.c.s
+LeetCode_1.c.s:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_1.c.s
+.PHONY : LeetCode_1.c.s
 
 # Help Target
 help:
@@ -155,12 +155,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... demo
-	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... lesson2_3.obj
-	@echo ... lesson2_3.i
-	@echo ... lesson2_3.s
+	@echo ... LeetCode_1.c
+	@echo ... edit_cache
+	@echo ... LeetCode_1.obj
+	@echo ... LeetCode_1.i
+	@echo ... LeetCode_1.s
 .PHONY : help
 
 
