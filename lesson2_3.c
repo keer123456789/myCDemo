@@ -47,7 +47,7 @@ main(){
     printf("\n方法一：");
     printf("\n十进制：%d，  二进制：%s \n",b,string);
 
-//TODO：float转化为二进制输出，没有现成的函数，需要自己写；二进制已经有了，itoa函数就能办到。
+    //TODO：float转化为二进制输出，没有现成的函数，需要自己写；二进制已经有了，itoa函数就能办到。
     printf("hello, world");
 
 }
