@@ -149,6 +149,60 @@ LeetCode_1.c.s:
 	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_1.c.s
 .PHONY : LeetCode_1.c.s
 
+LeetCode_3.obj: LeetCode_3.c.obj
+
+.PHONY : LeetCode_3.obj
+
+# target to build an object file
+LeetCode_3.c.obj:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_3.c.obj
+.PHONY : LeetCode_3.c.obj
+
+LeetCode_3.i: LeetCode_3.c.i
+
+.PHONY : LeetCode_3.i
+
+# target to preprocess a source file
+LeetCode_3.c.i:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_3.c.i
+.PHONY : LeetCode_3.c.i
+
+LeetCode_3.s: LeetCode_3.c.s
+
+.PHONY : LeetCode_3.s
+
+# target to generate assembly for a file
+LeetCode_3.c.s:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_3.c.s
+.PHONY : LeetCode_3.c.s
+
+main.obj: main.c.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.c.obj:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/main.c.s
+.PHONY : main.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +215,12 @@ help:
 	@echo ... LeetCode_1.obj
 	@echo ... LeetCode_1.i
 	@echo ... LeetCode_1.s
+	@echo ... LeetCode_3.obj
+	@echo ... LeetCode_3.i
+	@echo ... LeetCode_3.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

@@ -34,10 +34,3 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
     return returnSize;
 }
-void main(){
-    int nums[]={2,11,15,7};
-    int sum1[]={0,0};
-    int *sum=sum1;
-    sum=twoSum(nums,4,9,sum);
-    printf("%d,,,%d",sum1[0],sum1[1]);
-}

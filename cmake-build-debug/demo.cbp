@@ -74,7 +74,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/code/c/demo/LeetCode.h">
+			<Option target="LeetCode_1.c"/>
+		</Unit>
 		<Unit filename="E:/code/c/demo/LeetCode_1.c">
+			<Option target="LeetCode_1.c"/>
+		</Unit>
+		<Unit filename="E:/code/c/demo/LeetCode_3.c">
+			<Option target="LeetCode_1.c"/>
+		</Unit>
+		<Unit filename="E:/code/c/demo/main.c">
 			<Option target="LeetCode_1.c"/>
 		</Unit>
 		<Unit filename="E:/code/c/demo/CMakeLists.txt">
