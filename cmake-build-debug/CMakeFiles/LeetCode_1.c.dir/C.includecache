@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/code/c/demo/LeetCode_3.c
+E:/code/c/demo/LeetCode.h
+
+E:/code/c/demo/main.c
 stdio.h
 -
+LeetCode.h
+E:/code/c/demo/LeetCode.h
 

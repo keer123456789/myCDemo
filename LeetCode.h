@@ -14,3 +14,7 @@ extern int* twoSum(int* nums, int numsSize, int target, int* returnSize);
 
 //LeetCode_3
 extern int lengthOfLongestSubstring(char * s);
+
+//LeetCode_1295
+int findNumbers(int* nums, int numsSize);
+extern int sumWei(int num);

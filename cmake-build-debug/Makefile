@@ -149,6 +149,33 @@ LeetCode_1.c.s:
 	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_1.c.s
 .PHONY : LeetCode_1.c.s
 
+LeetCode_1295.obj: LeetCode_1295.c.obj
+
+.PHONY : LeetCode_1295.obj
+
+# target to build an object file
+LeetCode_1295.c.obj:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_1295.c.obj
+.PHONY : LeetCode_1295.c.obj
+
+LeetCode_1295.i: LeetCode_1295.c.i
+
+.PHONY : LeetCode_1295.i
+
+# target to preprocess a source file
+LeetCode_1295.c.i:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_1295.c.i
+.PHONY : LeetCode_1295.c.i
+
+LeetCode_1295.s: LeetCode_1295.c.s
+
+.PHONY : LeetCode_1295.s
+
+# target to generate assembly for a file
+LeetCode_1295.c.s:
+	$(MAKE) -f CMakeFiles\LeetCode_1.c.dir\build.make CMakeFiles/LeetCode_1.c.dir/LeetCode_1295.c.s
+.PHONY : LeetCode_1295.c.s
+
 LeetCode_3.obj: LeetCode_3.c.obj
 
 .PHONY : LeetCode_3.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... LeetCode_1.obj
 	@echo ... LeetCode_1.i
 	@echo ... LeetCode_1.s
+	@echo ... LeetCode_1295.obj
+	@echo ... LeetCode_1295.i
+	@echo ... LeetCode_1295.s
 	@echo ... LeetCode_3.obj
 	@echo ... LeetCode_3.i
 	@echo ... LeetCode_3.s

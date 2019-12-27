@@ -3,6 +3,8 @@
 
 CMakeFiles/LeetCode_1.c.dir/LeetCode_1.c.obj: ../LeetCode_1.c
 
+CMakeFiles/LeetCode_1.c.dir/LeetCode_1295.c.obj: ../LeetCode_1295.c
+
 CMakeFiles/LeetCode_1.c.dir/LeetCode_3.c.obj: ../LeetCode_3.c
 
 CMakeFiles/LeetCode_1.c.dir/main.c.obj: ../LeetCode.h
